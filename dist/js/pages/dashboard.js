@@ -17,7 +17,7 @@ $(function () {
   var cpuTempChartCanvas = document.getElementById('cpu-temp-chart-canvas').getContext('2d')
 
   var cpuTempChartData = {
-    labels: ['6', '7', '8', '9', '10', '11', '12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+    labels: ['7', '8', '9', '10', '11', '12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'],
     datasets: [
       {
         label: 'CPU Temperature',
@@ -65,7 +65,7 @@ $(function () {
   var cpuUtilChartCanvas = $('#line-chart').get(0).getContext('2d')
 
   var cpuUtilChartData = {
-    labels: ['6', '7', '8', '9', '10', '11', '12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+    labels: ['7', '8', '9', '10', '11', '12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'],
     datasets: [
       {
         label: 'CPU Util',
