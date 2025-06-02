@@ -251,9 +251,29 @@ function updateElectricityEstimates(data){
 }
 
 
+async function checkServerStatus() {
+      try {
+        const res = await fetch('https://api-sysinfo.vpjoshi.in/status');
+        const data = await res.json();
+
+        if (data.status !== 'good') {
+          const modal = new bootstrap.Modal(document.getElementById('serverModal'));
+          modal.show();
+        }
+        else{
+          setInterval(fetchData, 1000);
+          fetchStaticData();
+        }
+      } catch (err) {
+        // Show modal even if fetch fails (network/server error)
+        const modal = new bootstrap.Modal(document.getElementById('serverModal'));
+        modal.show();
+
+      }
+    }
+
+    // Call when DOM is ready
+    document.addEventListener('DOMContentLoaded', checkServerStatus);
 
 
 
-fetchData();
-fetchStaticData();
-setInterval(fetchData, 1000);
