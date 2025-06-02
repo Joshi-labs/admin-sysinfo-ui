@@ -1,0 +1,10 @@
+<!--<script src="plugins/jquery/jquery.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="plugins/chart.js/Chart.min.js"></script>
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="dist/js/adminlte2167.js?v=3.2.0"></script>
+<script src="dist/js/pages/dashboard.js"></script>
+<script src="scripts/main.js"></script>

@@ -1,0 +1,16 @@
+#calendar {
+    text-align: center;
+}
+  
+#calendar .datepicker-days,
+#calendar .datepicker-months,
+#calendar .datepicker-years,
+#calendar .datepicker-decades {
+    text-align: center;
+}
+  
+#calendar td,
+#calendar th {
+    text-align: center;
+    vertical-align: middle;
+}
